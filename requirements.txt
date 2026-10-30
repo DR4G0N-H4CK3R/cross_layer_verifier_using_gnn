@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3      # IP-only baseline
+matplotlib>=3.7        # figures
+scapy>=2.5             # reading IP pcaps
+fastapi>=0.110         # optional: dashboard (stdlib fallback exists)
+uvicorn>=0.29          # optional: dashboard
+# paho-mqtt>=1.6       # optional: MQTT alert sink
+# torch>=2.2           # optional: alternative model backend (gwverify.model.rgcn_torch)
+pytest>=7
